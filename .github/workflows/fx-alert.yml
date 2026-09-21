@@ -13,7 +13,7 @@ jobs:
       - name: Check USD/JPY 15m range and notify via ntfy
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          THRESHOLD_PIPS: "0"
+          THRESHOLD_PIPS: "13"
         run: |
           set -e
 
